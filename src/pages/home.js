@@ -1,7 +1,6 @@
 import React from 'react'
 import '../App'
-import '../styles/style.css';
-import '../styles/ie6.css';
+
 
 
 function home() {
@@ -12,7 +11,7 @@ function home() {
             <head>
                 <title>Portfolio About Kyle Henriksen</title>
                 <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-                <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+                <link rel="stylesheet" href="/style.css" type="text/css" media="all" />
                 <script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
                 <script type="text/javascript" src="js/jquery.jcarousel.js"></script>
                 <script type="text/javascript" src="js/jquery-func.js"></script>
@@ -74,7 +73,7 @@ function home() {
                             </div>
                             <div className="slide-area-info">
                                 <div className="green">
-                                    <img src="css/images/green-light.gif" alt="" />
+                                    <img src="/images/green-light.gif" alt="" />
                                     <p>I am currently: <strong>AVAILABLE</strong></p>
                                 </div>
                                 <a className="slide-down" href="/">slide-down</a>
@@ -101,7 +100,7 @@ function home() {
                                         <li>
                                             <a href="https://github.com/starbjornx"
                                             ><img
-                                                    src="css/images/kylesprofilepic.jpg"
+                                                    src="/images/kylesprofilepic.jpg"
                                                     style={{ width: "100%", height: "100%" }}
                                                     alt="About me"
                                                 /></a>
@@ -110,7 +109,7 @@ function home() {
                                         <li>
                                             <a href="https://www.twitch.tv/starbjorn_"
                                             ><img
-                                                    src="css/images/twitchlogo1.png"
+                                                    src="/images/twitchlogo1.png"
                                                     alt="follow me on twitch at twitch.tv/starbjorn_"
                                                 /></a>
                                             <span className="project-info">follow me on twitch! </span>
@@ -118,7 +117,7 @@ function home() {
                                         <li>
                                             <a href="/"
                                             ><img
-                                                    src="css/images/codingbackground.png"
+                                                    src="/images/codingbackground.png"
                                                     alt="where i learned to code at"
                                                     style={{ width: "100%", height: "100%" }}
                                                 /></a>
@@ -127,7 +126,7 @@ function home() {
                                         <li>
                                             <a href="/"
                                             ><img
-                                                    src="./src/image/portfolio.png"
+                                                    src="/images/portfolio.png"
                                                     alt="previous portfolio"
                                                     style={{ width: "100%", height: "100%" }}
                                                 /></a>
@@ -136,14 +135,14 @@ function home() {
                                         <li>
                                             <a href="/"
                                             ><img
-                                                    src="css/images/coming-soon.jpg"
+                                                    src="/images/coming-soon.jpg"
                                                     alt="coming soon videos"
                                                 /></a>
                                         </li>
                                         <li>
                                             <a href="/"
                                             ><img
-                                                    src="css/images/coming-soon.jpg"
+                                                    src="/images/coming-soon.jpg"
                                                     alt="coming soon job desires"
                                                 /></a>
                                         </li>
@@ -179,7 +178,7 @@ function home() {
                                             <li>
                                                 <a href="/"
                                                 ><img
-                                                        src="css/images/background.png"
+                                                        src="/images/background.png"
                                                         style={{ width: "100%", height: "65%" }}
                                                         alt=""
                                                     /></a>
@@ -190,7 +189,7 @@ function home() {
                                             <li>
                                                 <a href="/"
                                                 ><img
-                                                        src="css/images/myproject.png"
+                                                        src="/images/myproject.png"
                                                         style={{ width: "100%", height: "60%" }}
                                                         alt=""
                                                     /></a>
@@ -199,31 +198,31 @@ function home() {
                                                 >
                                             </li>
                                             <li>
-                                                <a href="/"><img src="css/images/project3.jpg" alt="" /></a>
+                                                <a href="/"><img src="/images/project3.jpg" alt="" /></a>
                                                 <span className="project-info"
                                                 >Molestie facilisis risus arcu
                                                 </span>
                                             </li>
                                             <li>
-                                                <a href="/"><img src="css/images/project1.jpg" alt="" /></a>
+                                                <a href="/"><img src="/images/project1.jpg" alt="" /></a>
                                                 <span className="project-info"
                                                 >Molestie facilisis risus arcu
                                                 </span>
                                             </li>
                                             <li>
-                                                <a href="/"><img src="css/images/project1.jpg" alt="" /></a>
+                                                <a href="/"><img src="/images/project1.jpg" alt="" /></a>
                                                 <span className="project-info"
                                                 >Molestie facilisis risus arcu
                                                 </span>
                                             </li>
                                             <li>
-                                                <a href="/"><img src="css/images/project1.jpg" alt="" /></a>
+                                                <a href="/"><img src="/images/project1.jpg" alt="" /></a>
                                                 <span className="project-info"
                                                 >Molestie facilisis risus arcu
                                                 </span>
                                             </li>
                                             <li>
-                                                <a href="/"><img src="css/images/project1.jpg" alt="" /></a>
+                                                <a href="/"><img src="/images/project1.jpg" alt="" /></a>
                                                 <span className="project-info"
                                                 >Molestie facilisis risus arcu
                                                 </span>
@@ -253,34 +252,34 @@ function home() {
                                     <div class="slider-carousel">
                                         <ul>
                                             <li>
-                                                <a href="/"><img src="css/images/pwgen.png" alt="" /></a>
+                                                <a href="/"><img src="/images/pwgen.png" alt="" /></a>
                                                 <span className="project-info">Etiam semper libero quis</span>
                                             </li>
                                             <li>
-                                                <a href="/"><img src="css/images/thequiz.png" alt="" /></a>
+                                                <a href="/"><img src="/images/thequiz.png" alt="" /></a>
                                                 <span className="project-info">Etiam semper libero quis</span>
                                             </li>
                                             <li>
                                                 <a href="/"
-                                                ><img src="css/images/teamCards.png" alt=""
+                                                ><img src="/images/teamCards.png" alt=""
                                                     /></a>
                                                 <span className="project-info">Etiam semper libero quis</span>
                                             </li>
                                             <li>
                                                 <a href="/"
-                                                ><img src="css/images/weatherappExample.png" alt=""
+                                                ><img src="/images/weatherappExample.png" alt=""
                                                     /></a>
                                                 <span className="project-info">Etiam semper libero quis</span>
                                             </li>
                                             <li>
                                                 <a href="/"
-                                                ><img src="css/images/teamCards.png" alt=""
+                                                ><img src="/images/teamCards.png" alt=""
                                                     /></a>
                                                 <span className="project-info">Etiam semper libero quis</span>
                                             </li>
                                             <li>
                                                 <a href="/"
-                                                ><img src="css/images/teamCards.png" alt=""
+                                                ><img src="/images/teamCards.png" alt=""
                                                     /></a>
                                                 <span className="project-info">Etiam semper libero quis</span>
                                             </li>
@@ -313,17 +312,17 @@ function home() {
                                                 <a
                                                     href="https://www.twitch.tv/videos/1449289408?t=0h15m50s"
                                                     alt="this goes to Twitch tv"
-                                                ><img src="css/images/twitchvideos.png" alt=""
+                                                ><img src="/images/twitchvideos.png" alt=""
                                                     /></a>
                                                 <span class="project-info"
                                                 >Watch some of my most recent twitch videos!</span
                                                 >
                                             </li>
                                             <li>
-                                                <a href="/"><img src="css/images/project2.jpg" alt="" /></a>
+                                                <a href="/"><img src="/images/project2.jpg" alt="" /></a>
                                             </li>
                                             <li>
-                                                <a href="/"><img src="css/images/project1.jpg" alt="" /></a>
+                                                <a href="/"><img src="/images/project1.jpg" alt="" /></a>
                                             </li>
                                         </ul>
                                     </div>
@@ -347,7 +346,7 @@ function home() {
                                 <div class="head" id="blog">
 
                                     <a className="rss" href="/"
-                                    ><img src="css/images/rss.gif" alt=""
+                                    ><img src="/images/rss.gif" alt=""
                                         /></a>
                                 </div>
                                 <div class="box">
@@ -437,12 +436,12 @@ function home() {
                 </div>
 
                 <div id="footer">
-                    <div class="footerlink">
-                        <p class="lf">
+                    <div className="footerlink">
+                        <p className="lf">
                             Copyright &copy; 2022 <a href="/">Kyles Portfolio</a> - All Rights
                             Reserved
                         </p>
-                        <p class="rf">
+                        <p className="rf">
                             Design by <a href="http://chocotemplates.com/">ChocoTemplates.com</a>
                         </p>
                         <div style={{ clear: "both" }}></div>
