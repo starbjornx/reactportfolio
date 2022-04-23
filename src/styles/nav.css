@@ -1,0 +1,19 @@
+.navbar-default {
+  margin: 15px;
+  padding: 15px;
+  width: 100%;
+  list-style-type: none;
+  text-align: center;
+}
+
+.navbar-default > nav > button {
+  font-size: 1.5rem;
+  display: inline;
+
+  margin: 1%;
+  background-color: #2892d7;
+}
+
+.navbar-default > nav > button:hover {
+  box-shadow: 0 2px 5px rgba(5, 30, 10, 1.3);
+}

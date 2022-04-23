@@ -1,0 +1,9 @@
+.header {
+  background: #34cb9b;
+  height: 150px;
+}
+
+.header h1 {
+  color: white;
+  font-size: 2.5rem;
+}
